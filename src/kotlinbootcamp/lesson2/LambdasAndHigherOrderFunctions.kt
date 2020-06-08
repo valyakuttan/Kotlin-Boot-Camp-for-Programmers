@@ -5,7 +5,7 @@ var dirty = 0
 fun feedFish(dirty: Int) = dirty + 10
 
 // Function Types and Lambdas
-val waterFilter: (Int) -> Int = {dirty -> dirty / 2}
+val waterFilter: (Int) -> Int = { dirty -> dirty / 2 }
 
 // Higher Order Functions
 fun updateDirty(dirty: Int, operation: (Int) -> Int): Int {
@@ -28,9 +28,12 @@ fun dirtyProcessor() {
     )
 
     // Last parameter call syntax, the last parameter can be passed
-    // inside a curly braces
+    // inside a curly braces which enable us to use
     dirty =
         updateDirty(dirty) { ditry ->
             dirty * 2
         }
+
+    // Instead of calling the function as
+    dirty = updateDirty(dirty, { ditry -> dirty * 2 })
 }

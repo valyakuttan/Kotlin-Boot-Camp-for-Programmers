@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     // arrays can be initialized dynamically
     val array = Array(5) { it * 5 }
 
-    // for loop
+    // for loop with index
     for ((i, e) in array.withIndex()) {
         print("$i -> $e, ")
     } // 0 -> 0, 1 -> 5, 2 -> 10, 3 -> 15, 4 -> 20,
