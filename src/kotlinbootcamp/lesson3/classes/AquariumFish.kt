@@ -1,4 +1,4 @@
-package kotlinbootcamp.chapter4.classes
+package kotlinbootcamp.lesson3.classes
 
 // Interface delegation let's you add features to a class via composition
 // Composition is use an instance of a class rather than inheriting from it

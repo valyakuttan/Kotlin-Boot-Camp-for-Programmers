@@ -1,4 +1,4 @@
-package kotlinbootcamp.chapter4.classes
+package kotlinbootcamp.lesson3.classes
 
 import kotlin.math.PI
 

@@ -1,4 +1,4 @@
-package kotlinbootcamp.chapter4.dataclasses
+package kotlinbootcamp.lesson3.dataclasses
 
 fun main(args: Array<String>) {
     makeDecorations()
